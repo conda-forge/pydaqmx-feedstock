@@ -1,13 +1,13 @@
 {% set name = "pydaqmx" %}
-{% set version = "1.4.6" %}
+{% set version = "1.4.7" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/PyDAQmx-{{ version }}.tar.gz
-  sha256: c236a1abc8aeba24ebf20a662b2dcb16c797cc1dbe37e120d6352f74804da8f9
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 95b0c065bc14f27ea12f8415cd400b870972e659a0d72120627ce5250ac5d161
 
 build:
   noarch: python
